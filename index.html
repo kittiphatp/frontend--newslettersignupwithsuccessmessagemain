@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <section class="container">
+    <!-- Left side -->
+    <article>
+      <header>
+        <div class="topic">
+          Stay updated!
+        </div>
+        <div class="topic-desc">
+          Join 60,000+ product managers receiving monthly updates on:
+        </div>
+      </header>
+      <main>
+        <ul>
+          <li>
+            <img src="/assets/images/icon-list.svg" alt="list-icon">
+            Product discovery and building what matters
+          </li>
+          <li>
+            <img src="/assets/images/icon-list.svg" alt="list-icon">
+            Measuring to ensure updates are a success
+          </li>
+          <li>
+            <img src="/assets/images/icon-list.svg" alt="list-icon">
+            And much more!
+          </li>
+        </ul>
+      </main>
+      <div class="email">
+        <div class="email-topic">
+          <p>Email address</p>
+          <p class="invalid-text">Valid email required</p>
+        </div>
+        <input type="email" placeholder="email@company.com" />
+      </div>
+      <button class="btnSub">
+        Subscribe to monthly newsletter
+      </button>
+    </article>
+    <!-- Right side -->
+    <figure>
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="signup-img">
+    </figure>
+  </section>
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+
+  <section class="thankyou-container hide">
+    <img src="/assets/images/icon-list.svg" alt="list-icon" class="ty-list-icon">
+    <div class="ty-header">Thanks for subscribing!</div>
+    <div class="ty-desc">
+      A confirmation email has been sent to <span class="ty-email">ash@loremcompany.com</span>. 
+      Please open it and click the button inside to confirm your subscription.
+    </div>
+    <button class="ty-btn">Dismiss message</button>
+  </section>
+  
+
+  
+
+  
+
+  <!-- Success message end -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kittiphat Pisuittiporn</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
